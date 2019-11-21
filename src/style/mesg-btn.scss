@@ -1,0 +1,33 @@
+.hidden-wrapper{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    h2{
+        visibility: hidden;
+    }
+    h1{
+        visibility: visible;
+        font-size:45px;
+        
+    }
+    button{
+        margin-top:25px;
+        height:45px;
+        width:275px;
+        border-radius:15px;
+        transition: 1s ease-in-out;
+        border:none;
+        box-shadow: 7px 7px 5px -3px rgba(0,0,0,0.75);
+        background-color:rgba(0,145,217,1);
+        font-size:20px;
+        &:hover{
+            color:white;
+            font-size:25px;
+            height:75px;
+            box-shadow: 0px 0px 36px 19px rgba(0,145,217,1);
+            width:350px;
+        }
+    }
+}

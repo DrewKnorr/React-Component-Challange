@@ -1,0 +1,23 @@
+.font-wrapper{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:150px;
+    .size-header{
+        margin-top:150px;
+    }
+    button{
+        text-shadow:none;
+    }
+    label{
+        padding:5px;
+        font-size:25px;
+        input{
+            color:black;
+            margin:25px;
+            margin-top:-35px;
+            text-shadow: none;
+        }
+    }
+}
